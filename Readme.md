@@ -14,6 +14,6 @@
 | 08  | 透過畫一隻貓學習進階 CSS                  | [Link](https://a2623212.github.io/m3-week-02-a2623212/cat_painting)       |
 | 09  | 製作一個致敬頁面 Tribute Page             | [Link](https://a2623212.github.io/m3-week-02-a2623212/tribute_page)       |
 | 10  | 製作一個個人作品集網站 Portfolio          |                                                                           |
-| 11  | 導覽列切板                                |                                                                           |
+| 11  | 導覽列切板                                | [Link](https://a2623212.github.io/m3-week-02-a2623212/navbar)             |
 | 12  | 頁尾切板                                  |                                                                           |
 | 13  | RWD 網頁切板                              |                                                                           |
