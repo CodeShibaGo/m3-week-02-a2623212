@@ -82,8 +82,7 @@ nav a {
   .menu_btn {
     display: none;
   }
-  .logo {
-  }
+
   .header {
     display: flex;
     justify-content: space-between;
