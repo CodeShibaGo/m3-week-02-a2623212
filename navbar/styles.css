@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.main-header {
+  background: linear-gradient(0deg, #e1be95, #a77853);
+}
+
+.main-header .container {
+  display: flex;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+}
+
+.main-header .logo {
+  width: 100px;
+}
+.main-header .logo img {
+  width: 100%;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+.main-header .main-nav {
+  margin: auto;
+}
+.main-header .main-nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 1em;
+  position: relative;
+  /* 不加這個會怎麼樣嗎？ */
+  transform: translateY(0);
+  transition: 0.3s;
+}
+
+.main-header .main-nav a:hover {
+  transform: translateY(-5px);
+}
+.main-header .main-nav a::after {
+  content: "";
+  position: absolute;
+  /* 這時候只是在中間但沒有寬度 */
+  left: 50%;
+  right: 50%;
+  
+  height: 0;
+  bottom: -3px;
+  border-bottom: 1px solid #413431;
+  transition: 0.3s;
+}
+
+.main-header .main-nav a:hover::after {
+  left: 0;
+  right: 0;
+}
+.main-header .header-search {
+  display: flex;
+}
+
+.main-header .header-search button,
+.main-header .header-search input {
+  border: none;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+
+.main-header .header-search button:focus,
+.main-header .header-search input:focus {
+  outline: none;
+}
+
+.main-header .header-search button {
+  border-radius: 0 200px 200px 0;
+}
+
+.main-header .header-search input {
+  border-radius: 200px 0 0 200px;
+}
